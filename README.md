@@ -56,3 +56,14 @@ For more information on the reference motion data format, see the [DeepMimic doc
 
 *Disclaimer: This is not an official Google product.*
 
+
+## Run MPC example
+Usage:
+``pip3 install --upgrade pybullet --user
+git clone https://github.com/google-research/motion_imitation
+cd motion_imitation
+python3 setup.py install --user
+cd mpc_controller
+python3 locomotion_controller_example.py``
+All dependencies are included: OSQP, pybind11, Eigen
+
